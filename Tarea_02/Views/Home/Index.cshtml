@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row mb-4" aria-labelledby="aspnetTitle">
+        <h1 id="title" class="mb-3">Prueba 01 - CRUD Vehiculos</h1>
+        @*<p class="lead fw-bold mb-2">PARTE I</p>
+            <ol class="list-group list-group-numbered shadow-sm">
+                <li class="list-group-item"> No utilizar la base datos local del Visual Studio .Net </li>
+                <li class="list-group-item"> Crear una una Base datos llamada EntityBD, para la Autentificacion de usuarios. </li>
+                <li class="list-group-item"> Modificar la vista del Login y el Register para manipular el campo UserName (es diferente al campo Email) </li>
+                <li class="list-group-item"> El HtmlLink INICIO, ABOUT y CONTACT se despliega en el NAVBAR, si ningún usuario se ha autentificado. </li>
+                <li class="list-group-item"> El HtmlLink Pelicula se despliega en el NAVBAR, solo cuando un usuario se ha autentificado. </li>
+                <li class="list-group-item"> En el NAVBAR se visualiza Hola (UserName) </li>
+                <li class="list-group-item"> Modificar el formulario de REGISTRO para ingresar el Nombre de usuario, el mail y el password </li>
+                <li class="list-group-item"> Modificar el formulario de LOGIN para autentificarse con el Nombre de usuario (No el mail) y el password </li>
+            </ol>*@
+        @*<p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>*@
+    </section>
+
+    <div class="row g-4">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <div class="card h-100 text-center shadow-lg border-2 border-dark rounded-4">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <h2 id="gettingStartedTitle">Integrantes</h2>
+                    <p>
+                        - Jhonny Remache
+                    </p>
+                    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <div class="card h-100 text-center shadow-lg border-2 border-dark rounded-4">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <h2 id="perfilTitle">Jhonny Remache</h2>
+                    <div class="ratio ratio-1x1 w-75 mb-3" style="max-width: 250px;">
+                        <img src="@Url.Content("~/Content/img/foto_perfil.png")"
+                             class="rounded-circle border border-4 border-white shadow"
+                             style="object-fit: cover;"
+                             alt="Foto Perfil Integrante 1">
+                    </div>
+                    <p>Estudiante de Ingeniería en TICS</p>
+                    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <div class="card h-100 text-center shadow-lg border-2 border-dark rounded-4">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <h2 id="materiaTitle">Materia:</h2>
+                    <p>Desarrollo Web para Integracion de Tecnologias</p>
+                    <h2 id="nrcTitle">NRC:</h2>
+                    <p>36638</p>
+                    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>

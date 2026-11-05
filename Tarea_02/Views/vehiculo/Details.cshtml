@@ -1,0 +1,94 @@
+﻿@model Tarea_02.Models.vehiculo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>vehiculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.placa)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.motor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.motor)
+        </dd>*@
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.chasis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chasis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.combustible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.combustible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.anio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.anio)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.foto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.foto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avaluo)
+        </dt>
+
+        @*<dd>
+            @Html.DisplayFor(model => model.avaluo)
+        </dd>*@
+        <dd>
+            @string.Format("{0:C2}", Model.CalcularAvaluo())
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.color1.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.color1.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marca1.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marca1.descripcion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

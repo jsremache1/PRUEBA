@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b3f7b2a91e2b4aa79b3e0aa278e92a4f" Name="Diagram1">
+        <EntityTypeShape EntityType="MatriculacionFinalBD_Entity.agencia" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatriculacionFinalBD_Entity.color" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatriculacionFinalBD_Entity.marca" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatriculacionFinalBD_Entity.matricula" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatriculacionFinalBD_Entity.vehiculo" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MatriculacionFinalBD_Entity.FK__matricula__agenc__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="MatriculacionFinalBD_Entity.FK__vehiculo__color__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="MatriculacionFinalBD_Entity.FK__vehiculo__marca__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="MatriculacionFinalBD_Entity.FK__matricula__vehic__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
